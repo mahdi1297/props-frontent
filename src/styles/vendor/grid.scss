@@ -3,6 +3,10 @@
   width: 100%;
 }
 
+.h-100 {
+  height: 100%;
+}
+
 // Flex
 .d-flex {
   display: flex;
@@ -63,4 +67,33 @@
 
 .pos-sticky {
   position: static;
+}
+
+
+// margin
+
+.ml-24{
+  margin-left: 24;
+}
+.mr-24{
+  margin-right: 24;
+}
+.mt-24{
+  margin-top: 24;
+}
+.mb-24{
+  margin-bottom: 24;
+}
+
+.pl-24{
+  padding-left: 24;
+}
+.pr-24{
+  padding-right: 24;
+}
+.pt-24{
+  padding-top: 24;
+}
+.pb-24{
+  padding-bottom: 24;
 }
