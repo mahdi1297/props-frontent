@@ -1,0 +1,11 @@
+@use "styles/variables.scss" as vars;
+
+.form-control__input {
+  width: 100%;
+  height: 42px;
+  border-radius: 8px;
+  border: 2px solid vars.$gray_border;
+  background-color: vars.$input_background_color;
+  color: vars.$text_color;
+  padding: 16px;
+}
