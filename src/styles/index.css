@@ -1,3 +1,39 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@font-face {
+  font-family: sahel;
+  font-weight: 400;
+  src: url("./../assets/font/Sahel.woff") format("woff");
+}
+@font-face {
+  font-family: sahelBold;
+  font-weight: 700;
+  src: url("./../assets/font/Sahel-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: sahelBlack;
+  font-weight: 500;
+  src: url("./../assets/font/Sahel-Black.woff") format("woff");
+}
+
+* {
+  font-family: sahel;
+  box-sizing: border-box;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  direction: rtl;
+}
