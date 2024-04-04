@@ -9,9 +9,9 @@ export const MainLayout = () => {
       <Sidebar />
       <main>
         <Header />
-        <div className="__body">
+        <main>
           <Outlet />
-        </div>
+        </main>
       </main>
     </div>
   );

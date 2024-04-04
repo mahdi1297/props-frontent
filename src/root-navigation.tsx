@@ -6,6 +6,7 @@ import {
   Routes,
 } from "react-router-dom";
 import { MainLayout } from "layouts/main-layout";
+import { Profile } from "views/profile";
 
 const Login = lazy(() => import("views/login"));
 
@@ -36,6 +37,7 @@ export function RootNavigation() {
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/users" element={<h2>sdlkfdlkf</h2>} />
+          <Route path="/profile" element={<Profile />} />
         </Route>
       </Routes>
     </>

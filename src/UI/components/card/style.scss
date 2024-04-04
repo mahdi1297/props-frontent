@@ -1,0 +1,9 @@
+@use "styles/variables.scss" as vars;
+
+.card {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid vars.$gray_border;
+  background-color: #fff;
+  border-radius: 16px;
+}

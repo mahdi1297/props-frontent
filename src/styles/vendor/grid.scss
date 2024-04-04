@@ -6,6 +6,11 @@
   height: 100%;
 }
 
+.container {
+  width: 85%;
+  margin: auto;
+}
+
 // Flex
 .d-flex {
   display: flex;
@@ -120,4 +125,29 @@
 }
 .pb-24 {
   padding-bottom: 24px;
+}
+
+.pl-16 {
+  padding-left: 16px;
+}
+.pr-16 {
+  padding-right: 16px;
+}
+.pt-16 {
+  padding-top: 16px;
+}
+.pb-16 {
+  padding-bottom: 16px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-24 {
+  gap: 24px;
 }

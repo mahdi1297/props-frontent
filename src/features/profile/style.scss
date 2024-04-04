@@ -1,0 +1,36 @@
+@use "styles/variables.scss" as vars;
+
+.profile__sidebar {
+  width: 100%;
+
+  .menu {
+    width: 100%;
+
+    li {
+      cursor: pointer;
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-weight: 300  ;
+      color: vars.$gray_primary_text;
+    }
+
+    li.active {
+      color: vars.$text_color;
+      font-weight: 500;
+      background-color: vars.$menu_item_active_bg;
+    }
+    li.active svg {
+      fill: vars.$text_color;
+      stroke: vars.$text_color;
+    }
+    li svg {
+      fill: vars.$gray_primary_text;
+      stroke: vars.$gray_primary_text;
+    }
+  }
+}
+
+.aside-title {
+  width: 100%;
+  border-bottom: 1px solid vars.$gray_border;
+}
