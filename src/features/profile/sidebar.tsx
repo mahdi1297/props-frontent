@@ -34,7 +34,7 @@ const Menu = () => {
 const Title = () => {
   return (
     <div className="aside-title">
-      <h3 className="font-lg font-bold pb-16">پروفایل</h3>
+      <h3 className="font-lg text-dark font-bold pb-16">پروفایل</h3>
     </div>
   );
 };

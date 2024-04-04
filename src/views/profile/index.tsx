@@ -1,6 +1,7 @@
 import { Card } from "UI/components/card";
 import "./style.scss";
 import { ProfileSidebar } from "features/profile/sidebar";
+import { UpdateProfile } from "features/profile/update-profile";
 
 export const Profile = () => {
   return (
@@ -11,10 +12,13 @@ export const Profile = () => {
             <ProfileSidebar />
           </div>
           <div className="main__field">
-            <Card />
+            <Card>
+              <UpdateProfile />
+            </Card>
           </div>
         </div>
       </div>
     </div>
   );
 };
+

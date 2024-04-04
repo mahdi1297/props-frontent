@@ -7,15 +7,13 @@
     border-radius: 100%;
     background-color: #b0e9fe;
   }
-
 }
 
-
-.text-dark{
-    color: vars.$text_color;
+.text-dark {
+  color: vars.$text_color;
 }
-.text-mute{
-    color: vars.$gray_primary_text;
+.text-mute {
+  color: vars.$gray_primary_text;
 }
 
 .font-regular {
@@ -52,4 +50,15 @@
 
 .font-xl {
   font-size: 20px;
+}
+
+.text-dark {
+  color: vars.$text_color;
+}
+
+.text-muted {
+  color: vars.$gray_primary_text;
+}
+.text-gray {
+  color: vars.$gray_text;
 }

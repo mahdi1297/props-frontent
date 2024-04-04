@@ -1,0 +1,54 @@
+@use "styles/variables.scss" as vars;
+
+.__button {
+  button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font-weight: 600;
+
+    &.outline-muted {
+      border: 2px solid vars.$gray_border;
+      border-radius: 8px;
+      color: vars.$gray_primary_text;
+
+      &:hover {
+        border: 1px solid vars.$text_color;
+        color: vars.$text_color;
+        border: 2px solid transparent;
+      }
+    }
+
+    &.outline-danger {
+      border: 2px solid vars.$danger_color;
+      border-radius: 8px;
+      color: vars.$danger_color;
+
+      &:hover {
+        border: 1px solid vars.$text_color;
+        color: vars.$text_color;
+        border: 2px solid transparent;
+      }
+    }
+
+    &.parimary {
+      border: 2px solid vars.$primary;
+      border-radius: 8px;
+      background-color: vars.$primary;
+      color: vars.$white_color;
+
+      &:hover {
+        border: 2px solid vars.$primary;
+        color: vars.$primary;
+        background-color: vars.$white_color;
+      }
+    }
+
+    &.lg {
+      padding: 8px 24px;
+    }
+  }
+}

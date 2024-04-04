@@ -10,7 +10,7 @@
       cursor: pointer;
       padding: 4px 8px;
       border-radius: 5px;
-      font-weight: 300  ;
+      font-weight: 300;
       color: vars.$gray_primary_text;
     }
 
@@ -27,6 +27,33 @@
       fill: vars.$gray_primary_text;
       stroke: vars.$gray_primary_text;
     }
+  }
+}
+
+.upload-image__wrapper {
+  border-bottom: 1px solid vars.$gray_border;
+
+  .upload-image-body {
+    figure {
+      margin: 0;
+      width: 78px;
+      height: 78px;
+      border-radius: 100%;
+      padding: 0;
+
+      img {
+        border: 2px solid vars.$gray_border;
+        border-radius: 100%;
+      }
+    }
+  }
+}
+
+.update-profile {
+  width: 100%;
+
+  .form-wrapper > div {
+    width: 50%;
   }
 }
 
