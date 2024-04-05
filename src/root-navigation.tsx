@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import { MainLayout } from "layouts/main-layout";
 import { Profile } from "views/profile";
+import { TradeLimmitionsDate } from "views/trade-limmitions-date";
 
 const Login = lazy(() => import("views/login"));
 
@@ -38,6 +39,7 @@ export function RootNavigation() {
         <Route element={<MainLayout />}>
           <Route path="/users" element={<h2>sdlkfdlkf</h2>} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/trade-limmitions" element={<TradeLimmitionsDate />} />
         </Route>
       </Routes>
     </>
