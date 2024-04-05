@@ -33,6 +33,7 @@ export function RootNavigation() {
     <>
       <Routes>
         <Route element={<MainLayout />}>
+          <Route path="/" element={<Users /> } />
           <Route path="/users" element={<Users /> } />
           <Route path="/profile" element={<Profile />} />
           <Route path="/trade-limmitions" element={<TradeLimmitionsDate />} />
