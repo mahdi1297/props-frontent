@@ -5,11 +5,7 @@ export type MenuItem = {
 };
 
 export const headerMenuItems: MenuItem[] = [
-  {
-    id: 1,
-    title: "خانه",
-    path: "/",
-  },
+  
   {
     id: 2,
     title: "دریافت سرمایه",
