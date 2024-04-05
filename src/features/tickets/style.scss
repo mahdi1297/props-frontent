@@ -1,0 +1,26 @@
+@use "styles/variables" as vars;
+
+.ticket-box {
+  width: 100%;
+  height: 300px;
+  border: 1px solid vars.$gray_border;
+  border-radius: 16px;
+
+  textarea {
+    width: 100%;
+    height: 240px;
+    resize: none;
+    border: none;
+    padding: 16px;
+    outline: none;
+    background-color: transparent;
+  }
+
+  .__sender-box{
+    position: relative;
+    top: -10px;
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid vars.$gray_border;
+  }
+}

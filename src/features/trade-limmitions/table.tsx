@@ -3,13 +3,15 @@ import "./style.scss";
 
 export const TradeLimmitionsDataTable = () => {
   return (
-    <Card>
-      <h3 className="font-lg text-dark">
-        تقویم ممنوعیت معاملاتی در هفته جاری به وقت ایران
-      </h3>
-      <div className="mt-24" />
-      <MinimalDataTable />
-    </Card>
+    <div className="container mt-24">
+      <Card>
+        <h3 className="font-lg text-dark">
+          تقویم ممنوعیت معاملاتی در هفته جاری به وقت ایران
+        </h3>
+        <div className="mt-24" />
+        <MinimalDataTable />
+      </Card>
+    </div>
   );
 };
 
@@ -45,7 +47,11 @@ const MinimalDataTable = () => {
         <thead className="w-100">
           <tr className="d-flex w-100 justify-around">
             {heads.map((item) => {
-              return <th key={item} className="font-sm font-bold text-muted">{item}</th>;
+              return (
+                <th key={item} className="font-sm font-bold text-muted">
+                  {item}
+                </th>
+              );
             })}
           </tr>
         </thead>

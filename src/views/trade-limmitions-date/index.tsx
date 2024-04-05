@@ -1,14 +1,12 @@
+import { WraningBox } from "features/trade-limmitions/warning-box";
+import { TradeLimmitionsDataTable } from "features/trade-limmitions/table";
 import "./style.scss";
-import { TradeLimmitionsDataTable } from "features/trade-limmitions";
 
 export const TradeLimmitionsDate = () => {
   return (
     <div className="trade-limmitions__wrapper">
-      <div className="container">
-        <TradeLimmitionsDataTable />
-
-      </div>
+      <WraningBox />
+      <TradeLimmitionsDataTable />
     </div>
   );
 };
-

@@ -30,3 +30,10 @@
     }
   }
 }
+
+.warning-box {
+  background-color: vars.$warning;
+  border-radius: 8px;
+  border: 2px solid vars.$warning;
+  padding: 16px;
+}

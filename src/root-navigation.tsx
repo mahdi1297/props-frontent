@@ -1,15 +1,13 @@
-import { lazy, Suspense } from "react";
 import {
-  createBrowserRouter,
   Route,
-  RouterProvider,
   Routes,
 } from "react-router-dom";
 import { MainLayout } from "layouts/main-layout";
 import { Profile } from "views/profile";
 import { TradeLimmitionsDate } from "views/trade-limmitions-date";
+import { Tickets } from "views/ticket";
 
-const Login = lazy(() => import("views/login"));
+// const Login = lazy(() => import("views/login"));
 
 // const router = createBrowserRouter([
 //   {
@@ -40,6 +38,7 @@ export function RootNavigation() {
           <Route path="/users" element={<h2>sdlkfdlkf</h2>} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/trade-limmitions" element={<TradeLimmitionsDate />} />
+          <Route path="/tickets" element={<Tickets />} />
         </Route>
       </Routes>
     </>
