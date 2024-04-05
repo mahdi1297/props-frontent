@@ -3,7 +3,7 @@ import "./style.scss";
 
 export const TradeLimmitionsDataTable = () => {
   return (
-    <div className="container mt-24">
+    <div className="container">
       <Card>
         <h3 className="font-lg text-dark">
           تقویم ممنوعیت معاملاتی در هفته جاری به وقت ایران

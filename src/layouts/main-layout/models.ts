@@ -28,7 +28,7 @@ export const headerMenuItems: MenuItem[] = [
   },
   {
     id: 6,
-    title: "همکاری با ستارگان",
+    title: "همکاری با ما",
     path: "/page",
   },
   {

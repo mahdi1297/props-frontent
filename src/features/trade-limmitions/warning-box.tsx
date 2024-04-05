@@ -4,7 +4,7 @@ import { TRADE_LIMMITIONS_WARNINGS } from "consts/warnings-and-errors";
 
 export const WraningBox = () => {
   return (
-    <div className="container">
+    <div className="container mt-24">
       <Card>
         <div className="warning-box__wrapper">
           <h3 className="font-lg text-dark">هشدار!</h3>

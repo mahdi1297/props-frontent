@@ -3,7 +3,6 @@ import { Button } from "UI/components/button";
 import { Card } from "UI/components/card";
 import { InputControl } from "UI/components/form/input-control";
 import "./style.scss";
-import { Input } from "UI/components/form/input";
 
 export const TicketsHome = () => {
   return (
@@ -12,7 +11,7 @@ export const TicketsHome = () => {
         <div className="w-100">
           <h3 className="font-lg text-dark">پشتیبانی</h3>
 
-          <p className="tex-dark mt-24 font-light line-height-md">
+          <p className="tex-dark mt-24 font-sm font-light line-height-md">
             {TICKETS_MESSAGE}
           </p>
 

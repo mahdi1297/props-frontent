@@ -5,8 +5,8 @@ import "./style.scss";
 export const TradeLimmitionsDate = () => {
   return (
     <div className="trade-limmitions__wrapper">
-      <WraningBox />
       <TradeLimmitionsDataTable />
+      <WraningBox />
     </div>
   );
 };

@@ -10,7 +10,6 @@
   }
 }
 
-
 header {
   height: 74px;
 
@@ -40,7 +39,6 @@ header {
             color: #141b31;
           }
         }
-
       }
       .active_line {
         width: 100%;
@@ -52,8 +50,76 @@ header {
     }
   }
 
-  .search-icon-button{
+  .search-icon-button {
     width: 24px;
     height: 24px;
+  }
+}
+
+aside.sidebar {
+  width: 62px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+  border-left: 1px solid vars.$gray_border;
+
+  .__head {
+    width: 100%;
+    height: 74px;
+
+    border-bottom: 1px solid vars.$gray_border;
+  }
+
+  .__nav {
+    ul {
+      li {
+        width: 100%;
+        height: max-content;
+
+        svg {
+          path {
+            transition: all ease-in 0.1s;
+          }
+        }
+
+        a {
+          transition: all ease-in 0.1s;
+        }
+
+        &:hover {
+          a {
+            background-color: vars.$primary;
+            border-radius: 4px;
+
+            svg {
+              path {
+                fill: vars.$white_color;
+              }
+            }
+          }
+        }
+        a {
+          display: flex;
+          width: 100%;
+          height: 62px;
+          align-items: center;
+          justify-content: center;
+        }
+
+        &.active {
+          a {
+            
+            svg {
+              path {
+                fill: vars.$primary;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
