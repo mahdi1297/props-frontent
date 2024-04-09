@@ -1,4 +1,4 @@
-import { IconFAQ, IconMessage, IconProfile, IconTradeCenter, IconUsers } from "UI/icons";
+import { IconBlog, IconFAQ, IconMessage, IconProfile, IconTradeCenter, IconUsers } from "UI/icons";
 import "./style.scss";
 import { Link, useLocation } from "react-router-dom";
 
@@ -44,6 +44,11 @@ const menus = [
     id: 4,
     path: "/trade-limmitions",
     icon: IconTradeCenter,
+  },
+  {
+    id: 6,
+    path: "/blogs",
+    icon: IconBlog,
   },
   {
     id: 5,

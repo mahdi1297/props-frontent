@@ -1,0 +1,17 @@
+.blog__detail-wrapper {
+  .___sidebar {
+    width: 30%;
+    position: sticky;
+    top: 100px;
+  }
+
+  .content {
+    width: 70%;
+  }
+
+  .thumbnail__wrapper{
+    img{
+      border-radius: 8px;
+    }
+  }
+}

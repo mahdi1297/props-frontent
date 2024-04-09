@@ -1,0 +1,30 @@
+@use "styles/variables" as vars;
+
+.blog__list-item {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid vars.$gray_border;
+  min-height: 150px;
+  padding: 8px;
+
+  p{
+    padding: 0 8px;
+    margin-top: 8px;
+  }
+
+  figure,
+  img {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: vars.$primary;
+  }
+
+  img {
+    background-size: contain;
+    max-width: 160px;
+    border-radius: 12px;
+  }
+}
