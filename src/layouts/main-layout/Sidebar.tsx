@@ -1,4 +1,4 @@
-import { IconMessage, IconProfile, IconTradeCenter, IconUsers } from "UI/icons";
+import { IconFAQ, IconMessage, IconProfile, IconTradeCenter, IconUsers } from "UI/icons";
 import "./style.scss";
 import { Link, useLocation } from "react-router-dom";
 
@@ -11,7 +11,7 @@ export const Sidebar = () => {
       <div className="__nav">
         <ul className="d-flex flex-col align-center justify-center mt-24">
           {menus.map((list) => {
-            const isActiveRoute = list.path.includes(pathname) ? true : false;
+            const isActiveRoute = list.path === pathname ? true : false;
             return (
               <li key={list.id} className={isActiveRoute ? "active" : ""}>
                 <Link to={list.path}>{list.icon}</Link>
@@ -44,5 +44,10 @@ const menus = [
     id: 4,
     path: "/trade-limmitions",
     icon: IconTradeCenter,
+  },
+  {
+    id: 5,
+    path: "/faq",
+    icon: IconFAQ,
   },
 ];

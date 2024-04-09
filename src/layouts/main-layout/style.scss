@@ -15,6 +15,7 @@ header {
 
   background-color: vars.$white_color;
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
   border: 1px solid #f1f2f4;
@@ -65,6 +66,7 @@ aside.sidebar {
   background-color: #fff;
   z-index: 100;
   border-left: 1px solid vars.$gray_border;
+
 
   .__head {
     width: 100%;

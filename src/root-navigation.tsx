@@ -4,6 +4,7 @@ import { Profile } from "views/profile";
 import { TradeLimmitionsDate } from "views/trade-limmitions-date";
 import { Tickets } from "views/ticket";
 import { Users } from "views/users";
+import { FAQ } from "views/faq";
 
 // const Login = lazy(() => import("views/login"));
 
@@ -34,6 +35,7 @@ export function RootNavigation() {
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Users /> } />
+          <Route path="/faq" element={<FAQ /> } />
           <Route path="/users" element={<Users /> } />
           <Route path="/profile" element={<Profile />} />
           <Route path="/trade-limmitions" element={<TradeLimmitionsDate />} />
